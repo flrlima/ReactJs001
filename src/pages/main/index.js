@@ -36,6 +36,10 @@ export default class Main extends Component{
                     </article>
                     //<h3 key={product._id}>{product.title}</h3>
                 ))}
+                <div className="actions">
+                    <button id="botao1">Anterior</button>
+                    <button id="botao2">Próximo</button>
+                </div>
             </div>
         );
     }
